@@ -27,7 +27,6 @@ public class ManejoStrings {
     //Método Palindrome con StringBuilder
     public boolean palindromeSBuilder(String inputString) {
         StringBuilder sbuilder = new StringBuilder(inputString);
-        //sbuilder.append(inputString);
         for (int i = 0; i < sbuilder.length(); i++) {
             if (sbuilder.charAt(i) != sbuilder.charAt(sbuilder.length() - 1 - i)) {
                 return false;

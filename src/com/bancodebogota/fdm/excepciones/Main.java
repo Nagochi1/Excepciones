@@ -4,17 +4,17 @@
  * and open the template in the editor.
  */
 package com.bancodebogota.fdm.excepciones;
-
-/**
- *
- * @author NAGOCHI
+ /**
+ * Autor: Natalia González Ch. 
+ * Fecha: julio 2018 Descripción: 
+ * Manejo de excepciones Java Lang. 
+ * Ejercicio: https://classroom.google.com/c/MTQ4MTc4MjAxMDFa
  */
-public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
+public class Main {
+    
     //Métodos División por cero
+    
     public double divisionChecked(double dividendo, double divisor) {
         try {
             if (divisor == 0) {
