@@ -9,13 +9,12 @@ package com.bancodebogota.fdm.excepciones;
  *
  * @author ngonz12
  */
-public class MiRecurso implements AutoCloseable{
+public class MiRecurso implements AutoCloseable {
 
     @Override
     public void close() throws Exception {
         System.out.println("Cerrando recurso");
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
-   
+
 }

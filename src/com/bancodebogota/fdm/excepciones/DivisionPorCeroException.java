@@ -10,12 +10,10 @@ package com.bancodebogota.fdm.excepciones;
  * @author NAGOCHI
  */
 public class DivisionPorCeroException extends Exception {
-     
-    public DivisionPorCeroException(String msg){
-         super(msg);
-    }
-    
-    
-}
 
+    public DivisionPorCeroException(String msg) {
+        super(msg);
+    }
+
+}
 
